@@ -1,0 +1,103 @@
+Go Crash Course
+Day 1
+
+Omar Mekky
+Al-Makinah
+@cousine
+http://cousine.me
+
+* Agenda
+1. Hi there!
+2. A "very" brief description of Go
+3. Installing Go
+4. Hello World!
+5. OOP in Go
+6. Organizing your code
+7. The toolset
+
+* Hi there!
+
+.image https://media.giphy.com/media/QQkyLVLAbQRKU/giphy.gif
+
+- Programmer for around 16 years
+- Polyglot 
+- Web development mentor
+
+What about you guys?
+
+* A "very" brief description of Go
+
+- Developed at Google in 2007
+- Statically-typed
+- Emphasis on concurrency
+- Extremely light weight
+- Not your usual OOP cup of tea
+
+* Installing Go
+
+You can find the official stable releases at [[https://golang.org/dl/]]
+
+You can also use [[http://play.golang.org]] to test stuff we are covering today.
+
+* Mac
+
+- Use `brew`
+- Download the official `.pkg`
+
+* Linux
+
+- Use the OS built in package manager
+- Download the official tar
+
+* Windows
+
+- Download the official msi
+
+* Hello World!
+
+Now that Go is installed, it's time for the most famous program in the universe; "Hello World!":
+
+.play intro/hello_world.go
+
+* OOP in Go
+
+- Go is not your typical OOP language
+- No Inheritance 
+- Functions and methods
+
+* Go has structs not objects
+
+.play intro/oop1.go
+
+* Inheritance best left out
+
+* Inheritance: Object-Composition (has-a)
+
+.code intro/oop2.go
+
+* Inheritance: Subtyping (is-a)
+
+.play intro/oop3.go /START OMIT/,/END OMIT/
+
+* Functions and methods
+
+Functions don't modify the state of an "Object"
+.code intro/oop4.go
+
+Methods modify state and define behaviour
+.code intro/oop5.go
+
+* Organizing your code
+
+- Packages
+- Exporting fields and functions
+
+* The toolset
+
+- go get
+- go install
+- go build
+- go run
+- go imports
+
+* Some more fun!
